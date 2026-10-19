@@ -1,0 +1,610 @@
+{
+  "q1": {
+    "by_year": [
+      {
+        "year": 2020,
+        "injury_crashes": 10836,
+        "fatal": 286,
+        "serious": 1899,
+        "light": 8651,
+        "fatal_excl_js": 260,
+        "ksi_share_pct": 20.2
+      },
+      {
+        "year": 2021,
+        "injury_crashes": 11554,
+        "fatal": 336,
+        "serious": 2208,
+        "light": 9010,
+        "fatal_excl_js": 303,
+        "ksi_share_pct": 22.0
+      },
+      {
+        "year": 2022,
+        "injury_crashes": 10404,
+        "fatal": 319,
+        "serious": 2320,
+        "light": 7765,
+        "fatal_excl_js": 291,
+        "ksi_share_pct": 25.4
+      },
+      {
+        "year": 2023,
+        "injury_crashes": 8832,
+        "fatal": 338,
+        "serious": 2374,
+        "light": 6120,
+        "fatal_excl_js": 307,
+        "ksi_share_pct": 30.7
+      },
+      {
+        "year": 2024,
+        "injury_crashes": 8315,
+        "fatal": 405,
+        "serious": 2452,
+        "light": 5458,
+        "fatal_excl_js": 381,
+        "ksi_share_pct": 34.4
+      }
+    ],
+    "change_pct_2020_2024": {
+      "fatal": 41.6083916083916,
+      "serious": 29.120589784096893,
+      "light": -36.90902785805109,
+      "injury_crashes": -23.26504245108896
+    },
+    "fatal_excl_js_change_pct": 46.53846153846152,
+    "decomposition": [
+      {
+        "road": "Interurban",
+        "kind": "Front-to-side",
+        "fatal_2020": 21,
+        "fatal_2024": 54,
+        "change": 33
+      },
+      {
+        "road": "Interurban",
+        "kind": "Other",
+        "fatal_2020": 17,
+        "fatal_2024": 41,
+        "change": 24
+      },
+      {
+        "road": "Interurban",
+        "kind": "Pedestrian hit",
+        "fatal_2020": 13,
+        "fatal_2024": 36,
+        "change": 23
+      },
+      {
+        "road": "Interurban",
+        "kind": "Rear-end",
+        "fatal_2020": 33,
+        "fatal_2024": 48,
+        "change": 15
+      },
+      {
+        "road": "Urban",
+        "kind": "Pedestrian hit",
+        "fatal_2020": 65,
+        "fatal_2024": 78,
+        "change": 13
+      },
+      {
+        "road": "Interurban",
+        "kind": "Hit fixed object",
+        "fatal_2020": 12,
+        "fatal_2024": 20,
+        "change": 8
+      },
+      {
+        "road": "Interurban",
+        "kind": "Head-on",
+        "fatal_2020": 33,
+        "fatal_2024": 39,
+        "change": 6
+      },
+      {
+        "road": "Urban",
+        "kind": "Head-on",
+        "fatal_2020": 3,
+        "fatal_2024": 6,
+        "change": 3
+      },
+      {
+        "road": "Urban",
+        "kind": "Other",
+        "fatal_2020": 16,
+        "fatal_2024": 18,
+        "change": 2
+      },
+      {
+        "road": "Urban",
+        "kind": "Rear-end",
+        "fatal_2020": 8,
+        "fatal_2024": 9,
+        "change": 1
+      },
+      {
+        "road": "Urban",
+        "kind": "Off-road / rollover",
+        "fatal_2020": 10,
+        "fatal_2024": 10,
+        "change": 0
+      },
+      {
+        "road": "Interurban",
+        "kind": "Off-road / rollover",
+        "fatal_2020": 19,
+        "fatal_2024": 18,
+        "change": -1
+      },
+      {
+        "road": "Urban",
+        "kind": "Front-to-side",
+        "fatal_2020": 21,
+        "fatal_2024": 19,
+        "change": -2
+      },
+      {
+        "road": "Urban",
+        "kind": "Hit fixed object",
+        "fatal_2020": 15,
+        "fatal_2024": 9,
+        "change": -6
+      }
+    ],
+    "interurban_share_of_fatal_increase": 0.907563025210084
+  },
+  "q2": {
+    "n": 49941,
+    "fatal": 1684,
+    "odds_ratios": {
+      "crash: Head-on": {
+        "or": 1.1177223055468586,
+        "lo": 0.9107233022526068,
+        "hi": 1.3717702722955765
+      },
+      "crash: Pedestrian hit": {
+        "or": 2.2413492967863493,
+        "lo": 1.8521758075097463,
+        "hi": 2.7122947237708304
+      },
+      "crash: Off-road / rollover": {
+        "or": 1.7243383307633733,
+        "lo": 1.360789369860324,
+        "hi": 2.185013158388363
+      },
+      "crash: Hit fixed object": {
+        "or": 1.5563053110216754,
+        "lo": 1.2385786837803776,
+        "hi": 1.9555368204154833
+      },
+      "road: Interurban, between junctions": {
+        "or": 2.833827505258386,
+        "lo": 2.2941597666837876,
+        "hi": 3.5004442350443545
+      },
+      "road: Interurban, junction": {
+        "or": 1.3619888818857866,
+        "lo": 1.0692724577695705,
+        "hi": 1.734837272672231
+      },
+      "speed_limit: 100-120": {
+        "or": 3.2747562950601856,
+        "lo": 2.5163301781971525,
+        "hi": 4.261773309780691
+      },
+      "speed_limit: 80-90": {
+        "or": 2.3679056336201447,
+        "lo": 1.956741802220598,
+        "hi": 2.865465992174834
+      },
+      "light: Night, unlit or broken lights": {
+        "or": 2.1871528974836894,
+        "lo": 1.808034035674619,
+        "hi": 2.6457675588979788
+      },
+      "light: Night, lit": {
+        "or": 1.4995232632685762,
+        "lo": 1.3366495764768243,
+        "hi": 1.6822434665415293
+      },
+      "weekend: True": {
+        "or": 1.1515261322186952,
+        "lo": 1.027065075179209,
+        "hi": 1.291069539046663
+      }
+    },
+    "cv_auc_by_year": 0.7642807792718292,
+    "pedestrian_city_lit_p": 0.08172811021344266,
+    "pedestrian_interurban_unlit_p": 0.388350959435422
+  },
+  "q3": {
+    "segments": 3899,
+    "trend_ratio": 1.2047957371225577,
+    "eb_alpha": 0.2966722932600729,
+    "eb_converged": true,
+    "raw_top20": {
+      "predicted_2023_24": 126.1019538188277,
+      "actual_2023_24": 86,
+      "error_pct": 46.630178859101974,
+      "captured_vs_hindsight": 0.6466165413533834
+    },
+    "eb_top20": {
+      "predicted_2023_24": 74.86538956719885,
+      "actual_2023_24": 95,
+      "error_pct": -21.194326771369635,
+      "captured_vs_hindsight": 0.7142857142857143
+    },
+    "raw_top50": {
+      "predicted_2023_24": 248.18792184724688,
+      "actual_2023_24": 164,
+      "error_pct": 51.334098687345666,
+      "captured_vs_hindsight": 0.6007326007326007
+    },
+    "eb_top50": {
+      "predicted_2023_24": 143.88935647369212,
+      "actual_2023_24": 173,
+      "error_pct": -16.82696157590051,
+      "captured_vs_hindsight": 0.6336996336996337
+    },
+    "top15_by_total": [
+      {
+        "road": 20,
+        "km": 14,
+        "district_name": "Tel Aviv",
+        "ksi_all": 20,
+        "fatal_all_years": 1,
+        "light_all_years": 72,
+        "eb_per_year": 2.877360560010004,
+        "excess_per_year": 1.7404183720196844
+      },
+      {
+        "road": 4,
+        "km": 109,
+        "district_name": "Tel Aviv",
+        "ksi_all": 20,
+        "fatal_all_years": 4,
+        "light_all_years": 29,
+        "eb_per_year": 2.447687434174346,
+        "excess_per_year": 1.6623352454946883
+      },
+      {
+        "road": 20,
+        "km": 13,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 2,
+        "light_all_years": 55,
+        "eb_per_year": 2.286504478471248,
+        "excess_per_year": 1.2682927363179604
+      },
+      {
+        "road": 20,
+        "km": 16,
+        "district_name": "Tel Aviv",
+        "ksi_all": 17,
+        "fatal_all_years": 3,
+        "light_all_years": 39,
+        "eb_per_year": 2.260552731372533,
+        "excess_per_year": 1.3753484211087996
+      },
+      {
+        "road": 4,
+        "km": 122,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 2,
+        "light_all_years": 50,
+        "eb_per_year": 2.249140677894852,
+        "excess_per_year": 1.269786913873951
+      },
+      {
+        "road": 44,
+        "km": 34,
+        "district_name": "Central",
+        "ksi_all": 19,
+        "fatal_all_years": 2,
+        "light_all_years": 19,
+        "eb_per_year": 2.1532084650850436,
+        "excess_per_year": 1.4897647476459113
+      },
+      {
+        "road": 4,
+        "km": 115,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 1,
+        "light_all_years": 31,
+        "eb_per_year": 2.060355777067681,
+        "excess_per_year": 1.253630940908045
+      },
+      {
+        "road": 4,
+        "km": 112,
+        "district_name": "Tel Aviv",
+        "ksi_all": 13,
+        "fatal_all_years": 1,
+        "light_all_years": 29,
+        "eb_per_year": 1.7237296383943188,
+        "excess_per_year": 0.9383774497146609
+      },
+      {
+        "road": 70,
+        "km": 52,
+        "district_name": "Haifa",
+        "ksi_all": 11,
+        "fatal_all_years": 1,
+        "light_all_years": 32,
+        "eb_per_year": 1.5459058937643506,
+        "excess_per_year": 0.7287868695222939
+      },
+      {
+        "road": 20,
+        "km": 19,
+        "district_name": "Tel Aviv",
+        "ksi_all": 12,
+        "fatal_all_years": 1,
+        "light_all_years": 19,
+        "eb_per_year": 1.4882528708556257,
+        "excess_per_year": 0.8248091534164935
+      },
+      {
+        "road": 4,
+        "km": 220,
+        "district_name": "Haifa",
+        "ksi_all": 8,
+        "fatal_all_years": 1,
+        "light_all_years": 89,
+        "eb_per_year": 1.466390532016391,
+        "excess_per_year": 0.22598337027303222
+      },
+      {
+        "road": 20,
+        "km": 8,
+        "district_name": "Tel Aviv",
+        "ksi_all": 11,
+        "fatal_all_years": 2,
+        "light_all_years": 24,
+        "eb_per_year": 1.4612783413633779,
+        "excess_per_year": 0.7332937647508115
+      },
+      {
+        "road": 20,
+        "km": 9,
+        "district_name": "Tel Aviv",
+        "ksi_all": 10,
+        "fatal_all_years": 2,
+        "light_all_years": 24,
+        "eb_per_year": 1.3616470802909444,
+        "excess_per_year": 0.6336625036783781
+      },
+      {
+        "road": 4,
+        "km": 223,
+        "district_name": "Haifa",
+        "ksi_all": 10,
+        "fatal_all_years": 1,
+        "light_all_years": 22,
+        "eb_per_year": 1.3379462639514845,
+        "excess_per_year": 0.6347823149238546
+      },
+      {
+        "road": 65,
+        "km": 20,
+        "district_name": "Haifa",
+        "ksi_all": 10,
+        "fatal_all_years": 2,
+        "light_all_years": 22,
+        "eb_per_year": 1.3379462639514845,
+        "excess_per_year": 0.6347823149238546
+      }
+    ],
+    "top15_by_excess": [
+      {
+        "road": 20,
+        "km": 14,
+        "district_name": "Tel Aviv",
+        "ksi_all": 20,
+        "fatal_all_years": 1,
+        "light_all_years": 72,
+        "eb_per_year": 2.877360560010004,
+        "excess_per_year": 1.7404183720196844
+      },
+      {
+        "road": 4,
+        "km": 109,
+        "district_name": "Tel Aviv",
+        "ksi_all": 20,
+        "fatal_all_years": 4,
+        "light_all_years": 29,
+        "eb_per_year": 2.447687434174346,
+        "excess_per_year": 1.6623352454946883
+      },
+      {
+        "road": 44,
+        "km": 34,
+        "district_name": "Central",
+        "ksi_all": 19,
+        "fatal_all_years": 2,
+        "light_all_years": 19,
+        "eb_per_year": 2.1532084650850436,
+        "excess_per_year": 1.4897647476459113
+      },
+      {
+        "road": 20,
+        "km": 16,
+        "district_name": "Tel Aviv",
+        "ksi_all": 17,
+        "fatal_all_years": 3,
+        "light_all_years": 39,
+        "eb_per_year": 2.260552731372533,
+        "excess_per_year": 1.3753484211087996
+      },
+      {
+        "road": 4,
+        "km": 122,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 2,
+        "light_all_years": 50,
+        "eb_per_year": 2.249140677894852,
+        "excess_per_year": 1.269786913873951
+      },
+      {
+        "road": 20,
+        "km": 13,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 2,
+        "light_all_years": 55,
+        "eb_per_year": 2.286504478471248,
+        "excess_per_year": 1.2682927363179604
+      },
+      {
+        "road": 4,
+        "km": 115,
+        "district_name": "Tel Aviv",
+        "ksi_all": 16,
+        "fatal_all_years": 1,
+        "light_all_years": 31,
+        "eb_per_year": 2.060355777067681,
+        "excess_per_year": 1.253630940908045
+      },
+      {
+        "road": 4,
+        "km": 112,
+        "district_name": "Tel Aviv",
+        "ksi_all": 13,
+        "fatal_all_years": 1,
+        "light_all_years": 29,
+        "eb_per_year": 1.7237296383943188,
+        "excess_per_year": 0.9383774497146609
+      },
+      {
+        "road": 20,
+        "km": 19,
+        "district_name": "Tel Aviv",
+        "ksi_all": 12,
+        "fatal_all_years": 1,
+        "light_all_years": 19,
+        "eb_per_year": 1.4882528708556257,
+        "excess_per_year": 0.8248091534164935
+      },
+      {
+        "road": 20,
+        "km": 8,
+        "district_name": "Tel Aviv",
+        "ksi_all": 11,
+        "fatal_all_years": 2,
+        "light_all_years": 24,
+        "eb_per_year": 1.4612783413633779,
+        "excess_per_year": 0.7332937647508115
+      },
+      {
+        "road": 70,
+        "km": 52,
+        "district_name": "Haifa",
+        "ksi_all": 11,
+        "fatal_all_years": 1,
+        "light_all_years": 32,
+        "eb_per_year": 1.5459058937643506,
+        "excess_per_year": 0.7287868695222939
+      },
+      {
+        "road": 44,
+        "km": 37,
+        "district_name": "Tel Aviv",
+        "ksi_all": 11,
+        "fatal_all_years": 1,
+        "light_all_years": 10,
+        "eb_per_year": 1.213364252353526,
+        "excess_per_year": 0.6960129874685691
+      },
+      {
+        "road": 4,
+        "km": 223,
+        "district_name": "Haifa",
+        "ksi_all": 10,
+        "fatal_all_years": 1,
+        "light_all_years": 22,
+        "eb_per_year": 1.3379462639514845,
+        "excess_per_year": 0.6347823149238546
+      },
+      {
+        "road": 65,
+        "km": 20,
+        "district_name": "Haifa",
+        "ksi_all": 10,
+        "fatal_all_years": 2,
+        "light_all_years": 22,
+        "eb_per_year": 1.3379462639514845,
+        "excess_per_year": 0.6347823149238546
+      },
+      {
+        "road": 20,
+        "km": 9,
+        "district_name": "Tel Aviv",
+        "ksi_all": 10,
+        "fatal_all_years": 2,
+        "light_all_years": 24,
+        "eb_per_year": 1.3616470802909444,
+        "excess_per_year": 0.6336625036783781
+      }
+    ],
+    "roads_in_top15_by_total": [
+      4,
+      20,
+      44,
+      65,
+      70
+    ],
+    "roads_in_top15_by_excess": [
+      4,
+      20,
+      44,
+      65,
+      70
+    ]
+  },
+  "q4": {
+    "fatal_rate_00_06": 0.06894618834080718,
+    "fatal_rate_08_18": 0.026629530246934548,
+    "fatal_rate_by_weekday": {
+      "Sun": 0.029323308270676692,
+      "Mon": 0.030901518205024854,
+      "Tue": 0.03103896103896104,
+      "Wed": 0.031365802011646376,
+      "Thu": 0.03514456630109671,
+      "Fri": 0.03863298662704309,
+      "Sat": 0.04480922803904171
+    },
+    "peak_cell": {
+      "weekday": "Mon",
+      "hour": 17
+    }
+  },
+  "data_quality": [
+    {
+      "field_state": "lighting known",
+      "crashes": 40985,
+      "ksi_pct": 21.0
+    },
+    {
+      "field_state": "lighting unknown",
+      "crashes": 8956,
+      "ksi_pct": 48.5
+    },
+    {
+      "field_state": "speed limit known",
+      "crashes": 44421,
+      "ksi_pct": 21.1
+    },
+    {
+      "field_state": "speed limit unknown",
+      "crashes": 5520,
+      "ksi_pct": 65.0
+    }
+  ]
+}

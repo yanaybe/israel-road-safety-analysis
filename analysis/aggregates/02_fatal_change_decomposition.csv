@@ -1,0 +1,15 @@
+road,kind,fatal_2020,fatal_2024,change
+Interurban,Front-to-side,21,54,33
+Interurban,Other,17,41,24
+Interurban,Pedestrian hit,13,36,23
+Interurban,Rear-end,33,48,15
+Urban,Pedestrian hit,65,78,13
+Interurban,Hit fixed object,12,20,8
+Interurban,Head-on,33,39,6
+Urban,Head-on,3,6,3
+Urban,Other,16,18,2
+Urban,Rear-end,8,9,1
+Urban,Off-road / rollover,10,10,0
+Interurban,Off-road / rollover,19,18,-1
+Urban,Front-to-side,21,19,-2
+Urban,Hit fixed object,15,9,-6
