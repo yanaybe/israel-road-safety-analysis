@@ -188,7 +188,7 @@ python scripts/download_data.py      # optional: re-download from data.gov.il
 sql/          load + 5 analysis queries (DuckDB)
 analysis/     run_analysis.py · findings.md · results.json · aggregates/
 dashboard/    template.html (source) · dashboard.html (built)
-docs/         index.html, the dashboard served by GitHub Pages
+docs/         index.html, the dashboard (CI publishes it to the gh-pages branch → GitHub Pages)
 figures/      charts above
 tests/        data quality, reconciliation with official figures, headline claims
 data/raw/     CBS files as downloaded (open licence)
