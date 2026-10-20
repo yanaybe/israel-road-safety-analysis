@@ -1,7 +1,7 @@
 """Download the CBS road-accident Public Use Files (2020-2024) from data.gov.il.
 
 Source: Central Bureau of Statistics, "Road accidents with casualties 2020-2024, PUF"
-https://data.gov.il/dataset/2023-puf   (licence: Other (Open))
+https://data.gov.il/datasets/lamas/2023-puf   (licence: Other (Open))
 
 One row per police-reported accident with casualties. A PUF is de-identified by
 design: no names, ID numbers or vehicle plates. The file host blocks scripted

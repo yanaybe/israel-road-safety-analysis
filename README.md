@@ -43,7 +43,7 @@
 ## The data
 
 **Source:** Central Bureau of Statistics (CBS), *Road accidents with casualties, Public Use File*, 2020–2024,
-[data.gov.il/dataset/2023-puf](https://data.gov.il/dataset/2023-puf), open licence. One row per
+[data.gov.il/datasets/lamas/2023-puf](https://data.gov.il/datasets/lamas/2023-puf), open licence. One row per
 police-recorded crash with at least one casualty: 49,941 crashes and 46 fields. It is de-identified
 by design (a "public use file"), with no names, ID numbers or plates.
 
