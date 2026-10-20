@@ -1,0 +1,4 @@
+# docs/index.html is a build artifact: the analysis pipeline regenerates it and
+# CI fails if it drifts. Excluding it from language statistics keeps this
+# repository reported as Python rather than HTML, and keeps it out of diffs.
+docs/index.html linguist-generated=true
